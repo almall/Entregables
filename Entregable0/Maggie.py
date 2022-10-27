@@ -5,7 +5,7 @@ import requests
 import csv
 
 for i in range(5):
- response=requests.get("https://thesimpsonsquoteapi.glitch.me/quotes")
+ response = requests.get("https://thesimpsonsquoteapi.glitch.me/quotes")
  #Imprimir código de respuesta (si devuelve 200 está bien)
  #print(response.status_code)
  #Imprimir quote, character & image
