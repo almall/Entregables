@@ -15,4 +15,8 @@
 # mv General.csv APP/GENERAL 
 # cd APP 
 # ls
+# cd HOMER
+# ls
+# cat Homer.csv
+
 
