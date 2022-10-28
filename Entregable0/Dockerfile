@@ -1,4 +1,4 @@
-FROM python 3.11.0
+FROM python:3.9.12
 COPY ./Maggie.py /app/
 COPY ./requirements.txt /app/
 
