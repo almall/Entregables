@@ -8,6 +8,6 @@ RUN mkdir Homer
 RUN mkdir Lisa
 RUN pip3 install -r ./requirements.txt
 
-CMD ["python" , "Maggie.py"] 
+CMD ["python","Maggie.py"] 
 
 

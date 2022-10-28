@@ -4,4 +4,4 @@ COPY ./requirements.txt /app/
 WORKDIR /app/
 RUN pip3 install -r ./requirements.txt
 
-CMD ["python" , "Lisa.py"] 
+CMD ["python","Lisa.py"] 
