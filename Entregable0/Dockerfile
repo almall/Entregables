@@ -1,8 +1,9 @@
 FROM python:3.9.12
+
+WORKDIR /app/
 COPY ./Maggie.py /app/
 COPY ./docker.txt /app/
 
-WORKDIR /app/
 RUN mkdir General
 RUN mkdir Homer
 RUN mkdir Lisa
